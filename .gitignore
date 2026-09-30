@@ -1,0 +1,72 @@
+# =========================
+# Environment / API Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Node / React / Vite
+# =========================
+node_modules/
+dist/
+build/
+.vite/
+.npm/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Python / FastAPI
+# =========================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+
+# =========================
+# Local databases
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Logs / Cache
+# =========================
+*.log
+logs/
+.cache/
+.temp/
+tmp/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Backup files
+# =========================
+*.backup*
+
+# =========================
+# Large archives
+# =========================
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+chainshield-ai/backend/data/elliptic_txs_features.csv
